@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.953);
+}
+h1 {
+  font-size: 3.5rem;
+  color: rgba(240, 248, 255, 0.912);
+}
+.choices {
+  margin-bottom: 30px;
+}
+.choices button {
+  font-size: 7.5rem;
+  min-width: 160px;
+  margin: 0;
+  border-radius: 250px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  border: none;
+}
+#rock {
+  background-color: hsla(345, 55%, 61%, 0.672);
+}
+#rock:hover {
+  background-color: hsla(345, 55%, 61%, 0.422);
+}
+#paper {
+  background-color: hsla(275, 55%, 61%, 0.672);
+}
+#paper:hover {
+  background-color: hsla(275, 55%, 61%, 0.422);
+}
+#scissor {
+  background-color: hsla(207, 55%, 61%, 0.672);
+}
+#scissor:hover {
+  background-color: hsla(207, 55%, 61%, 0.422);
+}
+
+#player,
+#comp {
+  font-size: 2.5rem;
+  color: rgba(240, 248, 255, 0.884);
+}
+#result {
+  font-size: 5rem;
+  margin: 30px 0;
+}
+.whiteText {
+  color: rgba(240, 248, 255, 0.901);
+}
+.greenText,
+#pscore {
+  color: hsla(158, 73%, 49%, 0.793);
+}
+.redText,
+#cscore {
+  color: rgba(178, 19, 80, 0.805);
+}
+.dis {
+  font-size: 2rem;
+  color: rgba(240, 248, 255, 0.855);
+  margin-bottom: 5px;
+}
+#winner {
+  font-size: 2rem;
+  color: rgb(161, 60, 128);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
