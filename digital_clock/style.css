@@ -1,0 +1,27 @@
+body {
+  background-image: url(pexels-eberhardgross-2098428.jpg);
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#clock {
+  font-family: monospace;
+  font-size: 5.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(5, 6, 6);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.031);
+}
