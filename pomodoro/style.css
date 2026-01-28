@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+#time {
+  color: hsl(177, 24%, 76%);
+  font-size: 6rem;
+}
+.pomodoro {
+  border: 2px solid hsl(342, 38%, 64%);
+  background-color: rgb(170, 80, 105);
+  margin: 8px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.pomodoro:hover {
+  border-color: rgb(198, 127, 148);
+  background-color: rgb(180, 95, 120);
+}
+.buttons {
+  border: 2px solid hsl(342, 38%, 64%);
+  background-color: rgb(170, 80, 105);
+  margin: 8px;
+  padding: 6px 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.buttons:hover {
+  border-color: rgb(198, 127, 148);
+  background-color: rgb(180, 95, 120);
+}
+.playlist {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.playlist a {
+  color: hsl(336, 38%, 47%);
+}
+.playlist a:hover {
+  color: hsl(336, 38%, 34%);
+}
